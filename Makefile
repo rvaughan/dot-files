@@ -8,6 +8,7 @@ install: \
 
 link:
 	ln -f tmux/tmux.conf ~/.tmux.conf
+	ln -f git/gitignore ~/.gitignore
 	ln -f git/gitmessage ~/.gitmessage
 	ln -f git/gitconfig ~/.gitconfig
 	ln -f theme ~/.theme
