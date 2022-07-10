@@ -1,3 +1,18 @@
 These are my dot files. They might be of some use to you, but again, they might
 not.
 
+In order to setup a new machine run:
+
+```
+make install
+```
+
+Running this command will:
+
+  - Install packages and formulas (from `brew`, `pip`).
+  - Install a minimal `vim` configuration.
+  - Link all the dotfiles to their expected location in `~`.
+
+## Notes
+
+You can save your HomeBrew configurations using the ```brew bundle dump``` command.
